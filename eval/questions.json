@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "How many days of annual leave do I get after my probation ends?",
+    "should_answer": true,
+    "expected_answer": "20 working days per calendar year (25 after more than 5 years of continuous service).",
+    "expected_sources": ["HR-01"],
+    "must_include": [["20"]]
+  },
+  {
+    "id": 2,
+    "question": "How many unused leave days can I carry over into next year, and when do I have to use them?",
+    "should_answer": true,
+    "expected_answer": "Up to 5 days; carried-over days must be used by 31 March or they are lost.",
+    "expected_sources": ["HR-01"],
+    "must_include": [["5", "five"], ["31 march"]]
+  },
+  {
+    "id": 3,
+    "question": "When do I need a medical certificate for sick leave?",
+    "should_answer": true,
+    "expected_answer": "For any absence of more than 2 consecutive working days.",
+    "expected_sources": ["HR-02"],
+    "must_include": [["2", "two"]]
+  },
+  {
+    "id": 4,
+    "question": "Which days am I expected to be in the office?",
+    "should_answer": true,
+    "expected_answer": "Tuesday and Thursday are anchor days for hybrid staff (at least 2 office days per week).",
+    "expected_sources": ["HR-05"],
+    "must_include": [["tuesday"], ["thursday"]]
+  },
+  {
+    "id": 5,
+    "question": "How far in advance do I need to request an international trip?",
+    "should_answer": true,
+    "expected_answer": "At least 21 days before departure.",
+    "expected_sources": ["FIN-03"],
+    "must_include": [["21"]]
+  },
+  {
+    "id": 6,
+    "question": "What is the deadline for submitting an expense claim?",
+    "should_answer": true,
+    "expected_answer": "Within 30 days of the expense, in the Spendly expense tool.",
+    "expected_sources": ["FIN-01"],
+    "must_include": [["30"]]
+  },
+  {
+    "id": 7,
+    "question": "I lost my work laptop. What should I do?",
+    "should_answer": true,
+    "expected_answer": "Report it to IT Support within 24 hours; IT will remotely lock and wipe it. If stolen, also report to the police and share the reference with IT.",
+    "expected_sources": ["IT-01"],
+    "must_include": [["24"], ["it support", "it-support", "it team", "it department"]]
+  },
+  {
+    "id": 8,
+    "question": "What is my yearly budget for training and courses?",
+    "should_answer": true,
+    "expected_answer": "NGN 400,000 per calendar year; unused budget does not carry over.",
+    "expected_sources": ["HR-07"],
+    "must_include": [["400000"]]
+  },
+  {
+    "id": 9,
+    "question": "How much paternity leave do I get?",
+    "should_answer": true,
+    "expected_answer": "10 working days at full pay, taken within 3 months of the birth or adoption, in up to two blocks.",
+    "expected_sources": ["HR-04"],
+    "must_include": [["10", "ten"]]
+  },
+  {
+    "id": 10,
+    "question": "A supplier sent me a gift worth NGN 25,000. Can I keep it?",
+    "should_answer": true,
+    "expected_answer": "Not automatically. Gifts above NGN 15,000 must be declared to Compliance within 5 working days; Compliance decides whether it is kept, returned or donated.",
+    "expected_sources": ["CMP-02"],
+    "must_include": [["15000"], ["declar"], ["compliance"]]
+  },
+  {
+    "id": 11,
+    "question": "I stayed in a hotel costing NGN 70,000 per night on a domestic work trip. Is that within the limit, and who needs to approve my claim?",
+    "should_answer": true,
+    "expected_answer": "Yes, the domestic limit is NGN 80,000 per night. Claim items above NGN 50,000 need line manager and Finance approval.",
+    "expected_sources": ["FIN-03", "FIN-01"],
+    "must_include": [["80000"], ["finance"], ["line manager"]]
+  },
+  {
+    "id": 12,
+    "question": "The company paid NGN 300,000 for my certification. If I resign 8 months after finishing it, what do I owe, and what happens to my unused annual leave?",
+    "should_answer": true,
+    "expected_answer": "You repay 50% of the cost (NGN 150,000), deducted from final salary where possible. Unused annual leave for the current year is paid out at your basic daily rate in the final salary.",
+    "expected_sources": ["HR-07", "HR-01"],
+    "must_include": [["150000", "50%", "50 percent", "half"], ["daily rate", "paid out"]]
+  },
+  {
+    "id": 13,
+    "question": "What percentage of my salary does the company contribute to my pension?",
+    "should_answer": false,
+    "expected_answer": "Not covered by the policies, so the assistant should refuse.",
+    "expected_sources": [],
+    "must_include": []
+  },
+  {
+    "id": 14,
+    "question": "Can I bring my dog to the office?",
+    "should_answer": false,
+    "expected_answer": "Not covered by the policies, so the assistant should refuse.",
+    "expected_sources": [],
+    "must_include": []
+  },
+  {
+    "id": 15,
+    "question": "What is the vesting schedule for employee stock options?",
+    "should_answer": false,
+    "expected_answer": "Not covered by the policies, so the assistant should refuse.",
+    "expected_sources": [],
+    "must_include": []
+  }
+]
